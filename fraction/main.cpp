@@ -1,4 +1,5 @@
 #include <iostream>
+
 #include "fraction.h"
 
 /**
@@ -35,11 +36,13 @@ Zadanie 0: absolutnie obowiazkowe, chociaz bez punktow
 Tresc do implementacji - szukaj w plikach *.h
 **/
 
+using namespace std;
+
 /// @todo Uzupelnij swoje dane:
-constexpr const char* const FIRSTNAME = "";
-constexpr const char* const SURNAME   = "";
-constexpr const char* const MAIL    = "";
-constexpr const char* const BOOK_ID = "";
+constexpr const char* const FIRSTNAME = "Przemysław";
+constexpr const char* const SURNAME   = "Węglik";
+constexpr const char* const MAIL    = "pweglik@student.agh.edu.plus";
+constexpr const char* const BOOK_ID = "401577";
 
 constexpr const char* const TEACHER_MAIL = "bazior[at]agh.edu.pl"; // change if not correct
 
@@ -48,7 +51,7 @@ void validateStudentsInfo();
 
 int main()
 {
-    std::cout << "Hello " << FIRSTNAME << " " << SURNAME << "!" << '\n'
+    cout << "Hello " << FIRSTNAME << " " << SURNAME << "!" << '\n'
               << "make Your teacher: " << TEACHER_MAIL << " proud of you!" << std::endl;
               
     validateStudentsInfo();

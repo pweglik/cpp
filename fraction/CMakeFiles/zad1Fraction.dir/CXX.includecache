@@ -1,0 +1,36 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/przemek/studia/sem4/cpp/fraction/fraction.cpp
+iostream
+-
+cstring
+-
+cctype
+-
+string
+-
+iosfwd
+-
+sstream
+-
+fraction.h
+/home/przemek/studia/sem4/cpp/fraction/fraction.h
+
+/home/przemek/studia/sem4/cpp/fraction/fraction.h
+iosfwd
+-
+string
+-
+
+/home/przemek/studia/sem4/cpp/fraction/main.cpp
+iostream
+-
+fraction.h
+/home/przemek/studia/sem4/cpp/fraction/fraction.h
+

@@ -51,20 +51,56 @@ ________________________________________________________________________________
 @note B. Jaka jest różnica między składowymi: `const static` a `constexpr static`?
 **/
 
-#define IMPLEMENTED_classFractionExists 0
-#define IMPLEMENTED_hasNumeratorAndDenominator 0
-#define IMPLEMENTED_hasDefaultConstructor 0
-#define IMPLEMENTED_hasConstructorWhichInitialiseFields 0
-#define IMPLEMENTED_hasGettersAndSetters 0
-#define IMPLEMENTED_hasPrintFunction 0
-#define IMPLEMENTED_counterOfDestructedFractionsImplemented 0
-#define IMPLEMENTED_readWriteImplemented 0
-#define IMPLEMENTED_fractionNameSettableFromConstructor 0
-#define IMPLEMENTED_fractionConstStaticFieldsImplemented 0
+#define IMPLEMENTED_classFractionExists 1
+#define IMPLEMENTED_hasNumeratorAndDenominator 1
+#define IMPLEMENTED_hasDefaultConstructor 1
+#define IMPLEMENTED_hasConstructorWhichInitialiseFields 1
+#define IMPLEMENTED_hasGettersAndSetters 1
+#define IMPLEMENTED_hasPrintFunction 1
+#define IMPLEMENTED_counterOfDestructedFractionsImplemented 1
+#define IMPLEMENTED_readWriteImplemented 1
+#define IMPLEMENTED_fractionNameSettableFromConstructor 1
+#define IMPLEMENTED_fractionConstStaticFieldsImplemented 1
 
 /** class PtrCStringVector
  *  @brief Klasa Fraction, którą należy poniżej zaimplementować zgodnie z instrukcją **/
 
-// .. TODO:
+class Fraction {
+    protected:
+        int numerator;
+        int denominator;
+        const std::string fractionName;
+        
+
+    public:
+        inline static int removedFractions_ = 0;
+        static const int invalidDenominatorValue = 0;
+        static constexpr int defaultDenominatorValue = 1;
+
+        Fraction();
+        Fraction (int, int);
+        Fraction (int, int, std::string);
+        ~Fraction() {removedFractions_++;}
+
+        void setNumerator(int newNumerator) {numerator = newNumerator;}
+        int getNumerator() const {return numerator;}
+
+        void setDenominator(int newDenominator) {denominator = newDenominator;}
+        int getDenominator() const {return denominator;}
+        
+        std::string getFractionName() const {return fractionName;} 
+
+        void print() const;
+
+        static int removedFractions() {return removedFractions_;}
+
+        void save(std::ostream& os) const {os<<numerator<<"/"<<denominator;}
+
+        void load(std::istream&);
+
+        static int getInvalidDenominatorValue() {return invalidDenominatorValue;}
+        static constexpr int getDefaultDenominatorValue() {return defaultDenominatorValue;}
+};
 
 #endif // TASK1_FRACTION_H
+
