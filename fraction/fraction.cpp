@@ -10,12 +10,12 @@ using namespace std;
 #include "fraction.h"
 
 #if IMPLEMENTED_classFractionExists
-#ifndef _MSC_FULL_VER // if not Visual Studio Compiler
+#ifndef _MSC_FULL_VER  // if not Visual Studio Compiler
     #warning "Klasa jest do zaimplementowania. Instrukcja w pliku naglowkowym"
 #else
     #pragma message ("Klasa jest do zaimplementowania. Instrukcja w pliku naglowkowym")
 #endif
-#endif // IMPLEMENTED_classFractionExists
+#endif  // IMPLEMENTED_classFractionExists
 
 Fraction::Fraction() {
     numerator = 0;
@@ -34,7 +34,7 @@ fractionName(fractionName)
 {}
 
 void Fraction::print() const {
-    cout<<numerator<<"/"<<denominator<<endl;
+    cout << numerator << "/" << denominator << endl;
 }
 
 void Fraction::load(std::istream& is) {
@@ -43,7 +43,7 @@ void Fraction::load(std::istream& is) {
     is >> fractionString;
 
     char *str = new char[fractionString.length() + 1];
-    strcpy(str, fractionString.c_str());
+    snprintf(str, fractionString.length() + 1, fractionString.c_str());
 
     char * token = strtok(str, "/");
     
