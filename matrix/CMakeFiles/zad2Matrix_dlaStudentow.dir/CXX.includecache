@@ -1,0 +1,30 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/przemek/studia/sem4/cpp/matrix/main.cpp
+iostream
+-
+matrix.h
+/home/przemek/studia/sem4/cpp/matrix/matrix.h
+
+/home/przemek/studia/sem4/cpp/matrix/matrix.cpp
+iostream
+-
+string
+-
+matrix.h
+/home/przemek/studia/sem4/cpp/matrix/matrix.h
+
+/home/przemek/studia/sem4/cpp/matrix/matrix.h
+iosfwd
+-
+matrixElement.h
+/home/przemek/studia/sem4/cpp/matrix/matrixElement.h
+
+/home/przemek/studia/sem4/cpp/matrix/matrixElement.h
+

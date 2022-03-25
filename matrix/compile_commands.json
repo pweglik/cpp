@@ -1,0 +1,42 @@
+[
+{
+  "directory": "/home/przemek/studia/sem4/cpp/matrix",
+  "command": "/usr/bin/c++      -std=c++17 -o CMakeFiles/zad2Matrix_dlaStudentow.dir/main.cpp.o -c /home/przemek/studia/sem4/cpp/matrix/main.cpp",
+  "file": "/home/przemek/studia/sem4/cpp/matrix/main.cpp"
+},
+{
+  "directory": "/home/przemek/studia/sem4/cpp/matrix",
+  "command": "/usr/bin/c++      -std=c++17 -o CMakeFiles/zad2Matrix_dlaStudentow.dir/matrix.cpp.o -c /home/przemek/studia/sem4/cpp/matrix/matrix.cpp",
+  "file": "/home/przemek/studia/sem4/cpp/matrix/matrix.cpp"
+},
+{
+  "directory": "/home/przemek/studia/sem4/cpp/matrix/tests",
+  "command": "/usr/bin/c++   -isystem /home/przemek/studia/sem4/cpp/matrix/tests/lib/googletest/include -isystem /home/przemek/studia/sem4/cpp/matrix/tests/lib/googletest    -std=c++17 -o CMakeFiles/tests.dir/matrixTests.cpp.o -c /home/przemek/studia/sem4/cpp/matrix/tests/matrixTests.cpp",
+  "file": "/home/przemek/studia/sem4/cpp/matrix/tests/matrixTests.cpp"
+},
+{
+  "directory": "/home/przemek/studia/sem4/cpp/matrix/tests",
+  "command": "/usr/bin/c++   -isystem /home/przemek/studia/sem4/cpp/matrix/tests/lib/googletest/include -isystem /home/przemek/studia/sem4/cpp/matrix/tests/lib/googletest    -std=c++17 -o CMakeFiles/tests.dir/__/matrix.cpp.o -c /home/przemek/studia/sem4/cpp/matrix/matrix.cpp",
+  "file": "/home/przemek/studia/sem4/cpp/matrix/matrix.cpp"
+},
+{
+  "directory": "/home/przemek/studia/sem4/cpp/matrix/tests/lib/googlemock",
+  "command": "/usr/bin/c++   -isystem /home/przemek/studia/sem4/cpp/matrix/tests/lib/googlemock/include -isystem /home/przemek/studia/sem4/cpp/matrix/tests/lib/googlemock -isystem /home/przemek/studia/sem4/cpp/matrix/tests/lib/googletest/include -isystem /home/przemek/studia/sem4/cpp/matrix/tests/lib/googletest    -Wall -Wshadow -Werror -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=1 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -std=c++17 -o CMakeFiles/gmock_main.dir/src/gmock_main.cc.o -c /home/przemek/studia/sem4/cpp/matrix/tests/lib/googlemock/src/gmock_main.cc",
+  "file": "/home/przemek/studia/sem4/cpp/matrix/tests/lib/googlemock/src/gmock_main.cc"
+},
+{
+  "directory": "/home/przemek/studia/sem4/cpp/matrix/tests/lib/googlemock",
+  "command": "/usr/bin/c++   -I/home/przemek/studia/sem4/cpp/matrix/tests/lib/googlemock/include -I/home/przemek/studia/sem4/cpp/matrix/tests/lib/googlemock -isystem /home/przemek/studia/sem4/cpp/matrix/tests/lib/googletest/include -isystem /home/przemek/studia/sem4/cpp/matrix/tests/lib/googletest    -Wall -Wshadow -Werror -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=1 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -std=c++17 -o CMakeFiles/gmock.dir/src/gmock-all.cc.o -c /home/przemek/studia/sem4/cpp/matrix/tests/lib/googlemock/src/gmock-all.cc",
+  "file": "/home/przemek/studia/sem4/cpp/matrix/tests/lib/googlemock/src/gmock-all.cc"
+},
+{
+  "directory": "/home/przemek/studia/sem4/cpp/matrix/tests/lib/googletest",
+  "command": "/usr/bin/c++   -isystem /home/przemek/studia/sem4/cpp/matrix/tests/lib/googletest/include -isystem /home/przemek/studia/sem4/cpp/matrix/tests/lib/googletest    -Wall -Wshadow -Werror -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=1 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -std=c++17 -o CMakeFiles/gtest_main.dir/src/gtest_main.cc.o -c /home/przemek/studia/sem4/cpp/matrix/tests/lib/googletest/src/gtest_main.cc",
+  "file": "/home/przemek/studia/sem4/cpp/matrix/tests/lib/googletest/src/gtest_main.cc"
+},
+{
+  "directory": "/home/przemek/studia/sem4/cpp/matrix/tests/lib/googletest",
+  "command": "/usr/bin/c++   -I/home/przemek/studia/sem4/cpp/matrix/tests/lib/googletest/include -I/home/przemek/studia/sem4/cpp/matrix/tests/lib/googletest    -Wall -Wshadow -Werror -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=1 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -std=c++17 -o CMakeFiles/gtest.dir/src/gtest-all.cc.o -c /home/przemek/studia/sem4/cpp/matrix/tests/lib/googletest/src/gtest-all.cc",
+  "file": "/home/przemek/studia/sem4/cpp/matrix/tests/lib/googletest/src/gtest-all.cc"
+}
+]

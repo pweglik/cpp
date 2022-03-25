@@ -1,0 +1,1 @@
+/bin/x86_64-linux-gnu-g++-9  -g   CMakeFiles/zad1Fraction.dir/fraction.cpp.o CMakeFiles/zad1Fraction.dir/main.cpp.o  -o bin/zad1Fraction 

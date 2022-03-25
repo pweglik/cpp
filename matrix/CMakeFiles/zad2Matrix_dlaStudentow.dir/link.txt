@@ -1,0 +1,1 @@
+/usr/bin/c++     CMakeFiles/zad2Matrix_dlaStudentow.dir/main.cpp.o CMakeFiles/zad2Matrix_dlaStudentow.dir/matrix.cpp.o  -o bin/zad2Matrix_dlaStudentow 
