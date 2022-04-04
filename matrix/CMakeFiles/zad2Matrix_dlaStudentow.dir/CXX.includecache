@@ -6,12 +6,6 @@
 
 #IncludeRegexTransform: 
 
-/home/przemek/studia/sem4/cpp/matrix/main.cpp
-iostream
--
-matrix.h
-/home/przemek/studia/sem4/cpp/matrix/matrix.h
-
 /home/przemek/studia/sem4/cpp/matrix/matrix.cpp
 iostream
 -

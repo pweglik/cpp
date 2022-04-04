@@ -75,18 +75,31 @@ class TwoDimensionMatrix
 
 public:
     TwoDimensionMatrix();
-    TwoDimensionMatrix(TwoDimensionMatrix&);
-    TwoDimensionMatrix(const MatrixElement**);
+    TwoDimensionMatrix(const TwoDimensionMatrix&);
+    TwoDimensionMatrix(const  MatrixElement [size][size]);
 
-    MatrixElement get(int, int);
+    MatrixElement get(int, int) const;
     static constexpr int getSize() {return 2;}
 
     MatrixElement* operator[](size_t);
-    
+    const MatrixElement* operator[](size_t) const;
+
+    TwoDimensionMatrix& operator=(const TwoDimensionMatrix&);
+
+    friend std::ostream& operator<<(std::ostream& os, const TwoDimensionMatrix& td_matrix);
+    friend std::istream& operator>>(std::istream &is, TwoDimensionMatrix& td_matrix);
+
+    TwoDimensionMatrix& operator*=(MatrixElement); 
+    TwoDimensionMatrix operator&&(const TwoDimensionMatrix&) const;
+
+    explicit operator size_t () const{ return (size_t)TwoDimensionMatrix::getSize();};
 private: // methods:
 
 private: // fields:
     MatrixElement matrix[size][size];
 };
+
+TwoDimensionMatrix operator + (const TwoDimensionMatrix&, const TwoDimensionMatrix&);
+
 
 #endif // MATRIX_H
