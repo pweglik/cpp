@@ -4,14 +4,9 @@
 
 #include "fraction.h"
 
-
-Fraction::Fraction() {
-    numerator_ = 0;
-    denominator_ = 1;
-}
-
 Fraction::Fraction(int numerator, int denominator) {
-    
+    this->setNumerator(numerator);
+    this->setDenominator(denominator);
 }
 
 void Fraction::setDenominator(int den) {
@@ -21,7 +16,7 @@ void Fraction::setDenominator(int den) {
     denominator_ = den;
 }
 
-Fraction Fraction::operator+(const Fraction& other) {
+Fraction Fraction::operator+(const Fraction& other) const{
     Fraction result;
     result.setDenominator(this->denominator() * other.denominator());
     result.setNumerator(this->numerator() * other.denominator() + other.numerator() * this->denominator());
@@ -34,7 +29,7 @@ Fraction Fraction::operator+(const Fraction& other) {
     return result;
 }
 
-Fraction Fraction::operator*(const Fraction& other) {
+Fraction Fraction::operator*(const Fraction& other) const{
 
     Fraction result;
     result.setDenominator(this->denominator() * other.denominator());

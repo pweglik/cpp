@@ -69,12 +69,28 @@ Nasza implementacja w razie automatycznego zwiekszania rozmiaru ma allokowac pam
 
 class Vector
 {
-#ifndef _MSC_FULL_VER // if not Visual Studio Compiler
-    #warning "Klasa jest do zaimplementowania. Instrukcja w pliku naglowkowym"
-#else
-    #pragma message ("Klasa jest do zaimplementowania. Instrukcja w pliku naglowkowym")
-#endif
-// TODO: zaimplementowac cialo klasy, usunac ten komentarz i warning powyzszy
+    protected:
+        Fraction * data_;
+        size_t size_;
+        size_t capacity_;
+
+    public:
+
+        Vector(size_t = 0);
+        Vector(const Vector&);
+        ~Vector() {delete data_;}
+
+        Fraction* data() const {return data_;}
+        size_t size() const {return size_;}
+        size_t capacity() const {return capacity_;}
+
+        Vector& operator=(const Vector&);
+
+        void push_back(const Fraction&);
+
+        Fraction operator[](size_t);
+        const Fraction operator[](size_t) const;
+
 };
 
 #endif // VECTOR_H

@@ -43,12 +43,9 @@ class Fraction {
     protected:
         int numerator_;
         int denominator_;
-        const std::string fractionName;
-        
 
     public:
-        Fraction();
-        Fraction(int, int);
+        Fraction(int  = 0, int = 1);
 
         void setNumerator(int newNumerator) {numerator_ = newNumerator;}
         auto numerator() const {return numerator_;}
@@ -56,8 +53,8 @@ class Fraction {
         void setDenominator(int);
         auto denominator() const {return denominator_;} 
 
-        Fraction operator+(const Fraction&);
-        Fraction operator*(const Fraction&);
+        Fraction operator+(const Fraction&) const;
+        Fraction operator*(const Fraction&) const;
 
 };
 
