@@ -1,4 +1,5 @@
 # Hashes of file build rules.
+ba40a4c147011976f84c38a86f433ed4 CMakeFiles/docs
 13825183c2e2407cae63b473543ee337 CMakeFiles/run
 6a2a2330ff1cda957e61ab0c9382fb11 CMakeFiles/valgrind_zad1Fraction
 cf0a36c21416d0a32a194fed102ed200 CMakeFiles/zip

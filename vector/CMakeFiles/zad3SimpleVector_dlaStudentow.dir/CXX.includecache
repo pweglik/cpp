@@ -6,15 +6,23 @@
 
 #IncludeRegexTransform: 
 
-/home/przemek/studia/sem4/cpp/vector/fraction.cpp
-iostream
+/home/przemek/studia/sem4/cpp/vector/fraction.h
+
+/home/przemek/studia/sem4/cpp/vector/vector.cpp
+algorithm
 -
 stdexcept
 -
-numeric
+utility
+-
+cstring
+-
+vector.h
+/home/przemek/studia/sem4/cpp/vector/vector.h
+
+/home/przemek/studia/sem4/cpp/vector/vector.h
+cstddef
 -
 fraction.h
-/home/przemek/studia/sem4/cpp/vector/fraction.h
-
 /home/przemek/studia/sem4/cpp/vector/fraction.h
 

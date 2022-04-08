@@ -278,7 +278,7 @@ CMAKE_VERBOSE_MAKEFILE:BOOL=FALSE
 CPPCHECK:FILEPATH=CPPCHECK-NOTFOUND
 
 //Path to a program.
-DOXYGEN:FILEPATH=DOXYGEN-NOTFOUND
+DOXYGEN:FILEPATH=/usr/bin/doxygen
 
 //Enable installation of googletest. (Projects embedding googletest
 // may want to turn this OFF.)

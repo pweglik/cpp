@@ -72,6 +72,7 @@ set(CMAKE_MAKEFILE_PRODUCTS
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
+  "CMakeFiles/docs.dir/DependInfo.cmake"
   "CMakeFiles/valgrind_zad1Fraction.dir/DependInfo.cmake"
   "CMakeFiles/zip.dir/DependInfo.cmake"
   "CMakeFiles/run.dir/DependInfo.cmake"

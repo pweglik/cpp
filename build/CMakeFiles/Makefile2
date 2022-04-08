@@ -64,6 +64,7 @@ preinstall: tests/preinstall
 .PHONY : preinstall
 
 # The main recursive "clean" target.
+clean: CMakeFiles/docs.dir/clean
 clean: CMakeFiles/valgrind_zad1Fraction.dir/clean
 clean: CMakeFiles/zip.dir/clean
 clean: CMakeFiles/run.dir/clean
@@ -153,6 +154,33 @@ tests/lib/googletest/clean: tests/lib/googletest/CMakeFiles/gtest_main.dir/clean
 tests/lib/googletest/clean: tests/lib/googletest/CMakeFiles/gtest.dir/clean
 
 .PHONY : tests/lib/googletest/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/docs.dir
+
+# All Build rule for target.
+CMakeFiles/docs.dir/all:
+	$(MAKE) -f CMakeFiles/docs.dir/build.make CMakeFiles/docs.dir/depend
+	$(MAKE) -f CMakeFiles/docs.dir/build.make CMakeFiles/docs.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/przemek/studia/sem4/cpp/build/CMakeFiles --progress-num= "Built target docs"
+.PHONY : CMakeFiles/docs.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/docs.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/przemek/studia/sem4/cpp/build/CMakeFiles 0
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/docs.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/przemek/studia/sem4/cpp/build/CMakeFiles 0
+.PHONY : CMakeFiles/docs.dir/rule
+
+# Convenience name for target.
+docs: CMakeFiles/docs.dir/rule
+
+.PHONY : docs
+
+# clean rule for target.
+CMakeFiles/docs.dir/clean:
+	$(MAKE) -f CMakeFiles/docs.dir/build.make CMakeFiles/docs.dir/clean
+.PHONY : CMakeFiles/docs.dir/clean
 
 #=============================================================================
 # Target rules for target CMakeFiles/valgrind_zad1Fraction.dir

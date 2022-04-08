@@ -4,6 +4,7 @@
 /home/przemek/studia/sem4/cpp/build/CMakeFiles/list_install_components.dir
 /home/przemek/studia/sem4/cpp/build/CMakeFiles/rebuild_cache.dir
 /home/przemek/studia/sem4/cpp/build/CMakeFiles/edit_cache.dir
+/home/przemek/studia/sem4/cpp/build/CMakeFiles/docs.dir
 /home/przemek/studia/sem4/cpp/build/CMakeFiles/valgrind_zad1Fraction.dir
 /home/przemek/studia/sem4/cpp/build/CMakeFiles/zip.dir
 /home/przemek/studia/sem4/cpp/build/CMakeFiles/run.dir

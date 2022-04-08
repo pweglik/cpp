@@ -78,13 +78,15 @@ class Vector
 
         Vector(size_t = 0);
         Vector(const Vector&);
-        ~Vector() {delete data_;}
+        Vector(Vector&&);
+        ~Vector() {delete[] data_;}
 
         Fraction* data() const {return data_;}
         size_t size() const {return size_;}
         size_t capacity() const {return capacity_;}
 
         Vector& operator=(const Vector&);
+        Vector& operator=(Vector&&);
 
         void push_back(const Fraction&);
 
