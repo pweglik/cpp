@@ -1,0 +1,1 @@
+/usr/bin/c++     CMakeFiles/zad3SimpleVector_dlaStudentow.dir/fraction.cpp.o CMakeFiles/zad3SimpleVector_dlaStudentow.dir/main.cpp.o CMakeFiles/zad3SimpleVector_dlaStudentow.dir/vector.cpp.o  -o bin/zad3SimpleVector_dlaStudentow 

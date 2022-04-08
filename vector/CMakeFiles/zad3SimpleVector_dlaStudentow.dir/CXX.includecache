@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/przemek/studia/sem4/cpp/vector/fraction.h
+
+/home/przemek/studia/sem4/cpp/vector/main.cpp
+iostream
+-
+vector.h
+/home/przemek/studia/sem4/cpp/vector/vector.h
+
+/home/przemek/studia/sem4/cpp/vector/vector.h
+cstddef
+-
+fraction.h
+/home/przemek/studia/sem4/cpp/vector/fraction.h
+

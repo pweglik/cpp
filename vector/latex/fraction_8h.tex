@@ -1,0 +1,54 @@
+\hypertarget{fraction_8h}{}\doxysection{fraction.\+h File Reference}
+\label{fraction_8h}\index{fraction.h@{fraction.h}}
+
+
+Bardziej zlozona implementacja klasy \mbox{\hyperlink{classFraction}{Fraction}} (Ulamek)\+:  
+
+
+This graph shows which files directly or indirectly include this file\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=143pt]{fraction_8h__dep__incl}
+\end{center}
+\end{figure}
+\doxysubsection*{Classes}
+\begin{DoxyCompactItemize}
+\item 
+class \mbox{\hyperlink{classFraction}{Fraction}}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Bardziej zlozona implementacja klasy \mbox{\hyperlink{classFraction}{Fraction}} (Ulamek)\+: 
+
+
+\begin{DoxyEnumerate}
+\item Klasa powinna posiadac pola {\ttfamily numerator\+\_\+} (licznik) i {\ttfamily denominator\+\_\+} (mianownik). Najlepiej aby byly to zmienne calkowite.
+\item Powinna zawierac jeden konstruktor ustawiajacy licznik (domyslnie na 0) i mianownik (domyslne na 1)
+\item Gettery i settery do wartosci licznika i mianownika m.\+in.\+: {\ttfamily denominator()} i {\ttfamily set\+Denominator(...)}.
+\begin{DoxyItemize}
+\item Prosze pamietac, ze gettery, jako metody nic nie zmieniajace powinny byc oznaczone jako metody stale.
+\item W mysl zasady aby w razie potrzeby kod modyfikowac w mniejszej ilosci miejsc sugeruje aby typem zwracanym getterow bylo {\ttfamily auto}.
+\end{DoxyItemize}
+\item {\ttfamily operator+} dla ulamka zwracajacy ulamek przez kopie. Metoda stala.
+\item {\ttfamily operator$\ast$} dla ulamka zwracajacy ulamek przez kopie. Metoda stala.
+\item Niepoprawny mianownik (=0) powinien byc zglaszany przez wyjatek {\ttfamily std\+::invalid\+\_\+argument}. Dotyczy to wszystkich miejsc, gdzie jest ustawiany mianownik.
+\item Prosze o automatyczne skracanie ulamkow po operacji + i $\ast$ Pomocny moze sie okazac algorytm euklidesa, oczywiscie tutaj robimy tylko dla przypadkow dodatnich. Zachecam do uzycia {\ttfamily std\+::gcd(...)}.
+\end{DoxyEnumerate}
+
+\DoxyHorRuler{0}
+ \hypertarget{fraction_8h_autotoc_md0}{}\doxysubsubsection{Najczestrze pytania\+:}\label{fraction_8h_autotoc_md0}
+
+\begin{DoxyEnumerate}
+\item Czy w setterach skracać ułamki? Setter swoją nazwą mówi -\/ustawX, więc powinien to zrobić i nic więcej. Trochę dziwne byłoby zachowanie gdy użytkownik ustawia 1/4 na 2/4 i by nagle się mu zrobiło 1/2, mimo iż ustawiał tylko licznik na 2.
+\end{DoxyEnumerate}
+
+\DoxyHorRuler{0}
+ \hypertarget{fraction_8h_autotoc_md1}{}\doxysubsubsection{Uwaga\+:}\label{fraction_8h_autotoc_md1}
+Wszystkie atrybuty powinny być prywatne, konstruktory i metody -\/ publiczne, metody większe niż 1-\/linijkowe powinny być zadeklarowane w klasie, zdefiniowane poza klasą, obiekty typów klasowych powinny być w miarę możliwości przekazywane w argumentach funkcji przez referencję, proszę też stosować słówko \char`\"{}const\char`\"{} w odpowiednich miejscach.
+
+Mozna tworzyc dowolna ilosc metod pomocniczych, jednakze aby byly one prywatne.
+
+Gettery i settery operujace na liczbach, ktore nie rzucaja wyjatku, warto zadeklarowac jako {\ttfamily noexcept}. 

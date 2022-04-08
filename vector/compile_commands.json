@@ -1,0 +1,57 @@
+[
+{
+  "directory": "/home/przemek/studia/sem4/cpp/vector",
+  "command": "/usr/bin/c++      -std=c++17 -o CMakeFiles/zad3SimpleVector_dlaStudentow.dir/fraction.cpp.o -c /home/przemek/studia/sem4/cpp/vector/fraction.cpp",
+  "file": "/home/przemek/studia/sem4/cpp/vector/fraction.cpp"
+},
+{
+  "directory": "/home/przemek/studia/sem4/cpp/vector",
+  "command": "/usr/bin/c++      -std=c++17 -o CMakeFiles/zad3SimpleVector_dlaStudentow.dir/main.cpp.o -c /home/przemek/studia/sem4/cpp/vector/main.cpp",
+  "file": "/home/przemek/studia/sem4/cpp/vector/main.cpp"
+},
+{
+  "directory": "/home/przemek/studia/sem4/cpp/vector",
+  "command": "/usr/bin/c++      -std=c++17 -o CMakeFiles/zad3SimpleVector_dlaStudentow.dir/vector.cpp.o -c /home/przemek/studia/sem4/cpp/vector/vector.cpp",
+  "file": "/home/przemek/studia/sem4/cpp/vector/vector.cpp"
+},
+{
+  "directory": "/home/przemek/studia/sem4/cpp/vector/tests",
+  "command": "/usr/bin/c++   -isystem /home/przemek/studia/sem4/cpp/vector/tests/lib/googletest/include -isystem /home/przemek/studia/sem4/cpp/vector/tests/lib/googletest    -std=c++17 -o CMakeFiles/tests.dir/fractionTests.cpp.o -c /home/przemek/studia/sem4/cpp/vector/tests/fractionTests.cpp",
+  "file": "/home/przemek/studia/sem4/cpp/vector/tests/fractionTests.cpp"
+},
+{
+  "directory": "/home/przemek/studia/sem4/cpp/vector/tests",
+  "command": "/usr/bin/c++   -isystem /home/przemek/studia/sem4/cpp/vector/tests/lib/googletest/include -isystem /home/przemek/studia/sem4/cpp/vector/tests/lib/googletest    -std=c++17 -o CMakeFiles/tests.dir/vectorTests.cpp.o -c /home/przemek/studia/sem4/cpp/vector/tests/vectorTests.cpp",
+  "file": "/home/przemek/studia/sem4/cpp/vector/tests/vectorTests.cpp"
+},
+{
+  "directory": "/home/przemek/studia/sem4/cpp/vector/tests",
+  "command": "/usr/bin/c++   -isystem /home/przemek/studia/sem4/cpp/vector/tests/lib/googletest/include -isystem /home/przemek/studia/sem4/cpp/vector/tests/lib/googletest    -std=c++17 -o CMakeFiles/tests.dir/__/fraction.cpp.o -c /home/przemek/studia/sem4/cpp/vector/fraction.cpp",
+  "file": "/home/przemek/studia/sem4/cpp/vector/fraction.cpp"
+},
+{
+  "directory": "/home/przemek/studia/sem4/cpp/vector/tests",
+  "command": "/usr/bin/c++   -isystem /home/przemek/studia/sem4/cpp/vector/tests/lib/googletest/include -isystem /home/przemek/studia/sem4/cpp/vector/tests/lib/googletest    -std=c++17 -o CMakeFiles/tests.dir/__/vector.cpp.o -c /home/przemek/studia/sem4/cpp/vector/vector.cpp",
+  "file": "/home/przemek/studia/sem4/cpp/vector/vector.cpp"
+},
+{
+  "directory": "/home/przemek/studia/sem4/cpp/vector/tests/lib/googlemock",
+  "command": "/usr/bin/c++   -isystem /home/przemek/studia/sem4/cpp/vector/tests/lib/googlemock/include -isystem /home/przemek/studia/sem4/cpp/vector/tests/lib/googlemock -isystem /home/przemek/studia/sem4/cpp/vector/tests/lib/googletest/include -isystem /home/przemek/studia/sem4/cpp/vector/tests/lib/googletest    -Wall -Wshadow -Werror -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=1 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -std=c++17 -o CMakeFiles/gmock_main.dir/src/gmock_main.cc.o -c /home/przemek/studia/sem4/cpp/vector/tests/lib/googlemock/src/gmock_main.cc",
+  "file": "/home/przemek/studia/sem4/cpp/vector/tests/lib/googlemock/src/gmock_main.cc"
+},
+{
+  "directory": "/home/przemek/studia/sem4/cpp/vector/tests/lib/googlemock",
+  "command": "/usr/bin/c++   -I/home/przemek/studia/sem4/cpp/vector/tests/lib/googlemock/include -I/home/przemek/studia/sem4/cpp/vector/tests/lib/googlemock -isystem /home/przemek/studia/sem4/cpp/vector/tests/lib/googletest/include -isystem /home/przemek/studia/sem4/cpp/vector/tests/lib/googletest    -Wall -Wshadow -Werror -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=1 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -std=c++17 -o CMakeFiles/gmock.dir/src/gmock-all.cc.o -c /home/przemek/studia/sem4/cpp/vector/tests/lib/googlemock/src/gmock-all.cc",
+  "file": "/home/przemek/studia/sem4/cpp/vector/tests/lib/googlemock/src/gmock-all.cc"
+},
+{
+  "directory": "/home/przemek/studia/sem4/cpp/vector/tests/lib/googletest",
+  "command": "/usr/bin/c++   -isystem /home/przemek/studia/sem4/cpp/vector/tests/lib/googletest/include -isystem /home/przemek/studia/sem4/cpp/vector/tests/lib/googletest    -Wall -Wshadow -Werror -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=1 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -std=c++17 -o CMakeFiles/gtest_main.dir/src/gtest_main.cc.o -c /home/przemek/studia/sem4/cpp/vector/tests/lib/googletest/src/gtest_main.cc",
+  "file": "/home/przemek/studia/sem4/cpp/vector/tests/lib/googletest/src/gtest_main.cc"
+},
+{
+  "directory": "/home/przemek/studia/sem4/cpp/vector/tests/lib/googletest",
+  "command": "/usr/bin/c++   -I/home/przemek/studia/sem4/cpp/vector/tests/lib/googletest/include -I/home/przemek/studia/sem4/cpp/vector/tests/lib/googletest    -Wall -Wshadow -Werror -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=1 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -std=c++17 -o CMakeFiles/gtest.dir/src/gtest-all.cc.o -c /home/przemek/studia/sem4/cpp/vector/tests/lib/googletest/src/gtest-all.cc",
+  "file": "/home/przemek/studia/sem4/cpp/vector/tests/lib/googletest/src/gtest-all.cc"
+}
+]
