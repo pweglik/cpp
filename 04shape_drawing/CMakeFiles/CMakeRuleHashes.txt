@@ -1,0 +1,8 @@
+# Hashes of file build rules.
+0b115558cf3516085da165ef432caa8e CMakeFiles/docs
+a9aba9bb5b0c48d350dbcf8351fa7205 CMakeFiles/format
+a955b2cfb97d4ba8b3fabaf1ea85b077 CMakeFiles/run
+2abb5122e1ee9b9031d686d4eff75333 CMakeFiles/valgrind_zad4ShapeDrawing
+19a27c6a60e4b9667a4aeb473403d34a CMakeFiles/zip
+b0c885745f0777b3ed6f7fca17cb2b6a tests/CMakeFiles/run_tests
+3073934f27c8e1078238c5315f22d265 tests/CMakeFiles/valgrind_tests

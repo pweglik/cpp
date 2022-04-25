@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/przemek/studia/sem4/cpp/04shape_drawing/circle.cpp
+cmath
+-
+circle.h
+/home/przemek/studia/sem4/cpp/04shape_drawing/circle.h
+
+/home/przemek/studia/sem4/cpp/04shape_drawing/circle.h
+shape.h
+/home/przemek/studia/sem4/cpp/04shape_drawing/shape.h
+
+/home/przemek/studia/sem4/cpp/04shape_drawing/shape.h
+

@@ -40,11 +40,10 @@ Tresc do implementacji - szukaj w plikach *.h
 **/
 
 /// @todo Uzupelnij swoje dane:
-constexpr const char* const FIRSTNAME = "";
-constexpr const char* const SURNAME   = "";
-constexpr const char* const MAIL    = "";
-constexpr const char* const BOOK_ID = "";
-
+constexpr const char* const FIRSTNAME = "Przemysław";
+constexpr const char* const SURNAME   = "Węglik";
+constexpr const char* const MAIL    = "pweglik@student.agh.edu.plus";
+constexpr const char* const BOOK_ID = "401577";
 constexpr const char* const TEACHER_MAIL = "bazior[at]agh.edu.pl"; // change if not correct
 
 void validateStudentsInfo();

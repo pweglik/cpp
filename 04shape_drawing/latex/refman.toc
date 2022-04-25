@@ -1,0 +1,9 @@
+\@ifundefined {etoctocstyle}{\let \etoc@startlocaltoc \@gobble \let \etoc@settocdepth \@gobble \let \etoc@depthtag \@gobble \let \etoc@setlocaltop \@gobble }{}
+\contentsline {chapter}{\numberline {1}Laboratorium 4 -\/ rysowanie kształtów}{1}{chapter.1}%
+\contentsline {subsection}{\numberline {1.0.1}Tresc zadan dla Panstwa\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}:}{1}{subsection.1.0.1}%
+\contentsline {chapter}{\numberline {2}Class Index}{3}{chapter.2}%
+\contentsline {section}{\numberline {2.1}Class List}{3}{section.2.1}%
+\contentsline {chapter}{\numberline {3}Class Documentation}{5}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Shapes\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}::Point Struct Reference}{5}{section.3.1}%
+\contentsline {section}{\numberline {3.2}Shapes\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}::Shape Class Reference}{5}{section.3.2}%
+\contentsline {chapter}{Index}{7}{section*.2}%

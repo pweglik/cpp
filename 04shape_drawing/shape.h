@@ -54,15 +54,17 @@ Mozna tworzyc dowolna ilosc metod pomocniczych, jednakze aby byly one prywatne.
 
 namespace Shapes
 {
-struct Point
-{
-    int x_, y_;
-};
+    struct Point
+    {
+        int x_, y_;
+    };
 
-class Shape
-{
-    // TODO:
-};
+    class Shape
+    {
+        public:
+            virtual bool isIn(int x, int y) const = 0;
+            virtual ~Shape() {}
+    };
 } // namespace Shapes
 
 #endif // SHAPE_H
