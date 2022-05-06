@@ -1,0 +1,1 @@
+/usr/bin/c++     CMakeFiles/tests.dir/MyListTests.cpp.o CMakeFiles/tests.dir/MySortTests.cpp.o  -o ../bin/tests  ../lib/libgtest.a ../lib/libgtest_main.a ../lib/libgtest.a -lpthread 

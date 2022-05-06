@@ -1,0 +1,8 @@
+# Hashes of file build rules.
+ad7a572c5722daf25c145788bc6cf0e9 CMakeFiles/docs
+75203960a2b89880d2434012ce92c3a7 CMakeFiles/format
+bfdfa9c861d58623aaeca9bbf2990bea CMakeFiles/run
+3211755f75f22b1b3451b0f4e9c95d07 CMakeFiles/valgrind_zad5MyListAndSorting_dlaStudentow
+903b4077eca7d8a67fefd08485f8b6ee CMakeFiles/zip
+39bb6953cadab6c14aa857ff9476d570 tests/CMakeFiles/run_tests
+88df3ebabe55b2d53ed57e92fb410e6d tests/CMakeFiles/valgrind_tests

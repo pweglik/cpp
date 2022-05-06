@@ -1,0 +1,37 @@
+[
+{
+  "directory": "/home/przemek/studia/sem4/cpp/05mylist_mysort",
+  "command": "/usr/bin/c++      -std=c++17 -o CMakeFiles/zad5MyListAndSorting_dlaStudentow.dir/main.cpp.o -c /home/przemek/studia/sem4/cpp/05mylist_mysort/main.cpp",
+  "file": "/home/przemek/studia/sem4/cpp/05mylist_mysort/main.cpp"
+},
+{
+  "directory": "/home/przemek/studia/sem4/cpp/05mylist_mysort/tests",
+  "command": "/usr/bin/c++   -isystem /home/przemek/studia/sem4/cpp/05mylist_mysort/tests/lib/googletest/include -isystem /home/przemek/studia/sem4/cpp/05mylist_mysort/tests/lib/googletest    -std=c++17 -o CMakeFiles/tests.dir/MyListTests.cpp.o -c /home/przemek/studia/sem4/cpp/05mylist_mysort/tests/MyListTests.cpp",
+  "file": "/home/przemek/studia/sem4/cpp/05mylist_mysort/tests/MyListTests.cpp"
+},
+{
+  "directory": "/home/przemek/studia/sem4/cpp/05mylist_mysort/tests",
+  "command": "/usr/bin/c++   -isystem /home/przemek/studia/sem4/cpp/05mylist_mysort/tests/lib/googletest/include -isystem /home/przemek/studia/sem4/cpp/05mylist_mysort/tests/lib/googletest    -std=c++17 -o CMakeFiles/tests.dir/MySortTests.cpp.o -c /home/przemek/studia/sem4/cpp/05mylist_mysort/tests/MySortTests.cpp",
+  "file": "/home/przemek/studia/sem4/cpp/05mylist_mysort/tests/MySortTests.cpp"
+},
+{
+  "directory": "/home/przemek/studia/sem4/cpp/05mylist_mysort/tests/lib/googlemock",
+  "command": "/usr/bin/c++   -isystem /home/przemek/studia/sem4/cpp/05mylist_mysort/tests/lib/googlemock/include -isystem /home/przemek/studia/sem4/cpp/05mylist_mysort/tests/lib/googlemock -isystem /home/przemek/studia/sem4/cpp/05mylist_mysort/tests/lib/googletest/include -isystem /home/przemek/studia/sem4/cpp/05mylist_mysort/tests/lib/googletest    -Wall -Wshadow -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=1 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -std=c++17 -o CMakeFiles/gmock_main.dir/src/gmock_main.cc.o -c /home/przemek/studia/sem4/cpp/05mylist_mysort/tests/lib/googlemock/src/gmock_main.cc",
+  "file": "/home/przemek/studia/sem4/cpp/05mylist_mysort/tests/lib/googlemock/src/gmock_main.cc"
+},
+{
+  "directory": "/home/przemek/studia/sem4/cpp/05mylist_mysort/tests/lib/googlemock",
+  "command": "/usr/bin/c++   -I/home/przemek/studia/sem4/cpp/05mylist_mysort/tests/lib/googlemock/include -I/home/przemek/studia/sem4/cpp/05mylist_mysort/tests/lib/googlemock -isystem /home/przemek/studia/sem4/cpp/05mylist_mysort/tests/lib/googletest/include -isystem /home/przemek/studia/sem4/cpp/05mylist_mysort/tests/lib/googletest    -Wall -Wshadow -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=1 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -std=c++17 -o CMakeFiles/gmock.dir/src/gmock-all.cc.o -c /home/przemek/studia/sem4/cpp/05mylist_mysort/tests/lib/googlemock/src/gmock-all.cc",
+  "file": "/home/przemek/studia/sem4/cpp/05mylist_mysort/tests/lib/googlemock/src/gmock-all.cc"
+},
+{
+  "directory": "/home/przemek/studia/sem4/cpp/05mylist_mysort/tests/lib/googletest",
+  "command": "/usr/bin/c++   -isystem /home/przemek/studia/sem4/cpp/05mylist_mysort/tests/lib/googletest/include -isystem /home/przemek/studia/sem4/cpp/05mylist_mysort/tests/lib/googletest    -Wall -Wshadow -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=1 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -std=c++17 -o CMakeFiles/gtest_main.dir/src/gtest_main.cc.o -c /home/przemek/studia/sem4/cpp/05mylist_mysort/tests/lib/googletest/src/gtest_main.cc",
+  "file": "/home/przemek/studia/sem4/cpp/05mylist_mysort/tests/lib/googletest/src/gtest_main.cc"
+},
+{
+  "directory": "/home/przemek/studia/sem4/cpp/05mylist_mysort/tests/lib/googletest",
+  "command": "/usr/bin/c++   -I/home/przemek/studia/sem4/cpp/05mylist_mysort/tests/lib/googletest/include -I/home/przemek/studia/sem4/cpp/05mylist_mysort/tests/lib/googletest    -Wall -Wshadow -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=1 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -std=c++17 -o CMakeFiles/gtest.dir/src/gtest-all.cc.o -c /home/przemek/studia/sem4/cpp/05mylist_mysort/tests/lib/googletest/src/gtest-all.cc",
+  "file": "/home/przemek/studia/sem4/cpp/05mylist_mysort/tests/lib/googletest/src/gtest-all.cc"
+}
+]

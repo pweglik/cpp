@@ -1,0 +1,1 @@
+/usr/bin/c++     CMakeFiles/zad5MyListAndSorting_dlaStudentow.dir/main.cpp.o  -o bin/zad5MyListAndSorting_dlaStudentow 
