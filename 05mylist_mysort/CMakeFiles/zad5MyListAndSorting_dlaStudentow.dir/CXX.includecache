@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/przemek/studia/sem4/cpp/05mylist_mysort/main.cpp
+iostream
+-
+myList.h
+/home/przemek/studia/sem4/cpp/05mylist_mysort/myList.h
+vector
+-
+
+/home/przemek/studia/sem4/cpp/05mylist_mysort/myList.h
+iosfwd
+-
+memory
+-
+

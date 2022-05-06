@@ -1,4 +1,7 @@
 #include <iostream>
+#include "myList.h"
+#include <vector>
+
 
 /**
   @mainpage Laboratorium 6 - Szablony klas i szablony funkcji
