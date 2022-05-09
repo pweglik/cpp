@@ -29,8 +29,8 @@ class MyList {
         MyList& operator=(const MyList&) = delete;
         ~MyList() = default;
 
-        // template <typename U>
-        // friend std::ostream& operator<<(std::ostream& os, const MyList<U>& my_list);
+        template <typename U>
+        friend std::ostream& operator<<(std::ostream& os, const MyList<U>& my_list);
 
         //methods
         int size() const {return _size;};
@@ -49,11 +49,11 @@ class MyList {
 
             friend class LinkedList;
             // constructor that takes in a pointer from the linked list
-            Iterator() noexcept : current_node(nullptr){};
-            Iterator(const std::unique_ptr<MyList::Node>& node) noexcept : current_node(node.get()){};
+            Iterator() : current_node(nullptr){};
+            Iterator(const std::unique_ptr<MyList::Node>& node) : current_node(node.get()){};
 
             // incrementing means going through the list
-            Iterator &operator++() noexcept
+            Iterator &operator++()
             {
                 if (current_node != nullptr)
                 {
@@ -64,7 +64,7 @@ class MyList {
             };
 
             // post fixing is bad in general but it has it's usages
-            Iterator operator++(int) noexcept
+            Iterator operator++(int)
             {
                 Iterator tempIter = *this; // we make a copy of the iterator
                 ++*this;                   // we increment
@@ -72,13 +72,13 @@ class MyList {
             };
 
             // we need to be able to compare nodes
-            bool operator!=(const Iterator &other) const noexcept
+            bool operator!=(const Iterator &other) const
             {
                 return this->current_node != other.current_node;
             };
 
             // return the data from the node (dereference operator)
-            T operator*() const noexcept
+            T operator*() const
             {
                 return this->current_node->value;
             };
@@ -88,13 +88,25 @@ class MyList {
                 const Node *current_node = nullptr;
         };
         // returning a const pointer to the front
-        MyList::Iterator begin() const noexcept
+        MyList::Iterator begin() const
         {
             return Iterator(this->head);
         };
 
         // returning a const pointer to the back - the back is always null because it marks the end of the list
-        MyList::Iterator end() const noexcept
+        MyList::Iterator end() const
+        {
+            return Iterator(nullptr);
+        };
+
+        // returning a const pointer to the front
+        MyList::Iterator begin()
+        {
+            return Iterator(this->head);
+        };
+
+        // returning a const pointer to the back - the back is always null because it marks the end of the list
+        MyList::Iterator end()
         {
             return Iterator(nullptr);
         };
@@ -170,14 +182,14 @@ void MyList<T>::remove (T elem){
     }
 }
 
-// template <typename T>
-// std::ostream& operator<<(std::ostream& os, const MyList<T>& my_list) {
-//     MyList<T>::Node * cur_node = head;
+template <typename T>
+std::ostream& operator<<(std::ostream& os, const MyList<T>& my_list) {
+    typename MyList<T>::Node * cur_node = my_list.head.get();
 
-//     while(cur_node != nullptr) {
-//         os << cur_node->value << " ";
-//         cur_node = cur_node->next.get();
-//     }
-//     return os;
-// }
+    while(cur_node != NULL) {
+        os << cur_node->value << " ";
+        cur_node = cur_node->next.get();
+    }
+    return os;
+}
 

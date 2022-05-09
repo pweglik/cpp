@@ -213,24 +213,24 @@ TEST_F(MyListTester, iteratorWorksWithStlAlgorithms)
     ASSERT_EQ(expectedNumberOfWords, counterWords);
 }
 
-// TEST_F(MyListTester, ostreamOperator_expectedAllValuesInStream)
-// {
-//     const string sourceContainer[] = {"Musicie", "od", "siebie", "wymagac",
-//                                       "nawet", "gdyby", "inni",
-//                                       "od", "was", "nie", "wymagali"};
+TEST_F(MyListTester, ostreamOperator_expectedAllValuesInStream)
+{
+    const string sourceContainer[] = {"Musicie", "od", "siebie", "wymagac",
+                                      "nawet", "gdyby", "inni",
+                                      "od", "was", "nie", "wymagali"};
 
-//     MyList<decay_t<decltype(sourceContainer[0])>> l;
-//     for (const auto& word : sourceContainer)
-//     {
-//         l.push_front(word);
-//     }
-//     ostringstream stream;
-//     stream << l;
-//     const auto textFromStream = stream.str();
+    MyList<decay_t<decltype(sourceContainer[0])>> l;
+    for (const auto& word : sourceContainer)
+    {
+        l.push_front(word);
+    }
+    ostringstream stream;
+    stream << l;
+    const auto textFromStream = stream.str();
 
-//     for (const auto& word : sourceContainer)
-//     {
-//         const auto wordFoundInStream = textFromStream.find(word) != string::npos;
-//         ASSERT_TRUE(wordFoundInStream) << "not found word: " << word;
-//     }
-// }
+    for (const auto& word : sourceContainer)
+    {
+        const auto wordFoundInStream = textFromStream.find(word) != string::npos;
+        ASSERT_TRUE(wordFoundInStream) << "not found word: " << word;
+    }
+}

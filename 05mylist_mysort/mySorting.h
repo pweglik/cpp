@@ -1,4 +1,7 @@
 #include <iterator>
+#include <array>
+#include <vector>
+#include <algorithm> 
 
 template<typename Container>
 void mySort(Container& values) {

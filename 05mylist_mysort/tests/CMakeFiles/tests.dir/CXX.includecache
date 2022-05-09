@@ -15,24 +15,12 @@ memory
 /home/przemek/studia/sem4/cpp/05mylist_mysort/mySorting.h
 iterator
 -
-
-/home/przemek/studia/sem4/cpp/05mylist_mysort/tests/MyListTests.cpp
+array
+-
 vector
 -
 algorithm
 -
-type_traits
--
-functional
--
-cctype
--
-gtest/gtest.h
--
-../myList.h
-/home/przemek/studia/sem4/cpp/05mylist_mysort/myList.h
-myList.h
-/home/przemek/studia/sem4/cpp/05mylist_mysort/tests/myList.h
 
 /home/przemek/studia/sem4/cpp/05mylist_mysort/tests/MySortTests.cpp
 iostream

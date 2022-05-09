@@ -44,60 +44,60 @@ public:
     }
 };
 
-// TEST_F(MySortTester, sortingStaticArray_expectedArraySorted)
-// {
-// #if MY_SORTING_INCLUDED == 1
-//     int values[] = {9, 8, 7, 6, 5, 4, 3, 2, 1, 0};
+TEST_F(MySortTester, sortingStaticArray_expectedArraySorted)
+{
+#if MY_SORTING_INCLUDED == 1
+    int values[] = {9, 8, 7, 6, 5, 4, 3, 2, 1, 0};
 
-//     const auto sortedValues = returnSortedArray(values);
+    const auto sortedValues = returnSortedArray(values);
 
-//     mySort(values);
-//     for (size_t i=0; i < std::size(values); ++i)
-//     {
-//         EXPECT_EQ(sortedValues[i], values[i]) << "i=" << i;
-//     }
-// #else
-//     ADD_FAILURE() << "File `mySorting.h` not added!";
-// #endif
-// }
+    mySort(values);
+    for (size_t i=0; i < std::size(values); ++i)
+    {
+        EXPECT_EQ(sortedValues[i], values[i]) << "i=" << i;
+    }
+#else
+    ADD_FAILURE() << "File `mySorting.h` not added!";
+#endif
+}
 
-// TEST_F(MySortTester, sortingStdVector_expectedContainerSorted)
-// {
-// #if MY_SORTING_INCLUDED == 1
-//     vector<int> values = {9, 8, 7, 6, 5, 4, 3, 2, 1, 0};
+TEST_F(MySortTester, sortingStdVector_expectedContainerSorted)
+{
+#if MY_SORTING_INCLUDED == 1
+    vector<int> values = {9, 8, 7, 6, 5, 4, 3, 2, 1, 0};
 
-//     const auto sortedValues = returnSortedContainer(values);
+    const auto sortedValues = returnSortedContainer(values);
 
-//     mySort(values);
-//     for (size_t i=0; i < std::size(values); ++i)
-//     {
-//         EXPECT_EQ(sortedValues[i], values[i]) << "i=" << i;
-//     }
-// #else
-//     ADD_FAILURE() << "File `mySorting.h` not added!";
-// #endif
-// }
+    mySort(values);
+    for (size_t i=0; i < std::size(values); ++i)
+    {
+        EXPECT_EQ(sortedValues[i], values[i]) << "i=" << i;
+    }
+#else
+    ADD_FAILURE() << "File `mySorting.h` not added!";
+#endif
+}
 
-// TEST_F(MySortTester, sortingMyList_expectedElementsInTheListSorted)
-// {
-// #if MY_SORTING_INCLUDED == 1
-//     const vector<int> sortedValues = {0, 1, 2, 3, 4, 5, 6, 7, 8, 9};
+TEST_F(MySortTester, sortingMyList_expectedElementsInTheListSorted)
+{
+#if MY_SORTING_INCLUDED == 1
+    const vector<int> sortedValues = {0, 1, 2, 3, 4, 5, 6, 7, 8, 9};
 
-//     MyList<int> l;
-//     std::copy(begin(sortedValues), end(sortedValues), front_inserter(l));
+    MyList<int> l;
+    std::copy(begin(sortedValues), end(sortedValues), front_inserter(l));
 
-//     mySort(l);
+    mySort(l);
 
-//     auto it = sortedValues.cbegin();
-//     for (auto v : l)
-//     {
-//         EXPECT_EQ(*it, v) << "index = " << distance(sortedValues.cbegin(), it);
-//         ++it;
-//     }
-// #else
-//     ADD_FAILURE() << "File `mySorting.h` not added!";
-// #endif
-// }
+    auto it = sortedValues.cbegin();
+    for (auto v : l)
+    {
+        EXPECT_EQ(*it, v) << "index = " << distance(sortedValues.cbegin(), it);
+        ++it;
+    }
+#else
+    ADD_FAILURE() << "File `mySorting.h` not added!";
+#endif
+}
 
 // TEST_F(MySortTester, sortingConstCharPtrAllUpperCases_expectedAllWordsSorted)
 // {
