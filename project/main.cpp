@@ -221,7 +221,6 @@ void handleMouse( SDL_Event* e , bool ** board)
             case SDL_MOUSEBUTTONDOWN:
                 int i = floor(y / CELL_PIXEL_SIZE);
                 int j = floor(x / CELL_PIXEL_SIZE);
-                printf("%d %d\n", i, j);
                 board[i][j] = !board[i][j];
                 drawBoard(board);
                 break;
